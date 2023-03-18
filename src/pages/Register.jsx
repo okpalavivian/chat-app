@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Add from "../img/addAvatar.png";
 
 const Register = () => {
@@ -21,7 +21,7 @@ const Register = () => {
          
         </form>
         <p>
-        Login
+        You do have an account? Login
         </p>
       </div>
     </div>

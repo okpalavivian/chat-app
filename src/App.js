@@ -6,10 +6,11 @@ import "./style.scss"
 function App() {
   return (
     <div className="App">
-     <Login />
-     <Home />
+   
      <Register />
-
+     <Home />
+     <Login />
+   
     </div>
   );
 }
