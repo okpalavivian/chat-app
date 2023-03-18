@@ -4,7 +4,7 @@ import Attach from "../img/attach.png"
 const Input =()=>{
     return(
         <div className="input">
-            <input type="text" placeholder="type something..">
+            <input type="text" placeholder="type something.."/>
                 <div className="send">
                     <img src={Attach} alt="" />
                     <input type="file" style={{display: "none"}} />
@@ -14,7 +14,7 @@ const Input =()=>{
                     </label>
                     <button>Send</button>
                 </div>
-            </input>
+         
         </div>
     )
 }
