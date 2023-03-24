@@ -2,13 +2,17 @@ import React from "react";
 import Add from "../img/addAvatar.png";
 
 const Register = () => {
+  const handleSubmit = (e)=>{
+    e.preventDefault()
+    console.log(e.target[0])
+  }
   
   return (
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">Lama Chat</span>
         <span className="title">Register</span>
-        <form>
+        <form onSubmit = {handleSubmit}>
           <input required type="text" placeholder="display name" />
           <input required type="email" placeholder="email" />
           <input required type="password" placeholder="password" />
